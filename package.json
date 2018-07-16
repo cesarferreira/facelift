@@ -1,7 +1,7 @@
 {
   "name": "facelift",
   "version": "0.0.0",
-  "description": "Quick github website generator",
+  "description": "Quick github-pages generator",
   "author": {
     "name": "Cesar Ferreira",
     "email": "cesar.manuel.ferreira@gmail.com",
