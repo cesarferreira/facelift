@@ -5,9 +5,12 @@
   <img src="extras/ss.png" width="100%" />
 </p>
 
-[![Build Status](https://travis-ci.org/cesarferreira/facelift.svg?branch=master)](https://travis-ci.org/cesarferreira/facelift)
-[![npm](https://img.shields.io/npm/dt/facelift.svg)](https://www.npmjs.com/package/facelift)
-[![npm](https://img.shields.io/npm/v/facelift.svg)](https://www.npmjs.com/package/facelift)
+<p align="center">
+  <a href="https://travis-ci.org/cesarferreira/facelift"><img src="https://travis-ci.org/cesarferreira/facelift.svg?branch=master" alt="Build Status"></a>
+  <a href="https://www.npmjs.com/package/facelift"><img src="https://img.shields.io/npm/dt/facelift.svg" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/facelift"><img src="https://img.shields.io/npm/v/facelift.svg" alt="npm"></a>
+  <a href="https://github.com/cesarferreira/facelift/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
 
 ## Install
 
