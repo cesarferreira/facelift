@@ -1,5 +1,5 @@
 # facelift
-> Quick github website generator
+> Quick github-pages generator
 
 <p align="center">
   <img src="extras/ss.png" width="100%" />
