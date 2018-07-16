@@ -2,7 +2,7 @@
 > Quick github website generator
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cesarferreira/assets/master/images/screenshot_terminal_hello_world.png" width="100%" />
+  <img src="extras/ss.png" width="100%" />
 </p>
 
 [![Build Status](https://travis-ci.org/cesarferreira/facelift.svg?branch=master)](https://travis-ci.org/cesarferreira/facelift)
@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-yarn add facelift
+npm install -g facelift
 ```
 
 ## Usage
@@ -20,14 +20,8 @@ yarn add facelift
 ```
 Usage
 
-   $ facelift <command> <params>
+   $ facelift
 
-   $ facelift sample <param>             # Uses the <PARAM>
-   
- Examples
-
-   $ facelift sample TEST                # Uses the TEST
-   $ facelift sample YOLO                # Uses the YOLO
 ```
 
 ## Created by
