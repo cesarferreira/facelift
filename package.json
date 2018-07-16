@@ -1,0 +1,38 @@
+{
+  "name": "facelift",
+  "version": "0.0.0",
+  "description": "Quick github website generator",
+  "author": {
+    "name": "Cesar Ferreira",
+    "email": "cesar.manuel.ferreira@gmail.com",
+    "url": "http://cesarferreira.com"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "lint": "eslint src/**/*",
+    "test": "xo"
+  },
+  "bin": {
+    "facelift": "cli.js"
+  },
+  "main": "cli.js",
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "xo": "^0.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarferreira/facelift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesarferreira/facelift/issues"
+  },
+  "homepage": "https://github.com/cesarferreira/facelift#readme",
+  "license": "MIT"
+}
