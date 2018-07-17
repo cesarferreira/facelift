@@ -66,7 +66,16 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
 }
 ```
 
-This will generate this website:
+### `git add` and `push` your code to your `remote`.
+
+
+### Head to your https://github.com/USERNAME/REPO/settings, scroll down to Github Pages and change the source to __master branch /docs folder__.
+
+<p align="center">
+  <img src="extras/settings-gh-pages.png" width="100%" />
+</p>
+
+### This will generate this website:
 
 <p align="center">
   <img src="extras/ss.png" width="100%" />
