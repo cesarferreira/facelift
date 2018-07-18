@@ -34,18 +34,39 @@
               </p>
               <div class="notification is-link is-hidden copy-notification">Copied to clipboard!</div>
             </div>
+
+            {{#highlights}}
             <div class="features content">
+              <strong>{{.title}}</strong>
+              <ul>
+                {{#items}}
+                <li>{{.}}</li>
+                {{/items}}
+              </ul>
+            </div>
+            {{/highlights}}
+
+            <!-- <div class="features content">
+              <strong>Features</strong>
+              <ul>
+                <li>Blazing fast way to add libraries</li>
+              </ul>
+            </div> -->
+
+
+            <!-- <div class="features content">
               <strong>Features</strong>
               <ul>
                   <li>Blazing fast way to add libraries</li>
               </ul>
-            </div>
-            <div class="links content">
+            </div> -->
+
+            <!-- <div class="links content">
               <strong>Links</strong>
               <ul>
                 <li>GitHub: <a href="https://github.com/cesarferreira/drone">https://github.com/cesarferreira/drone</a></li>
               </ul>
-            </div>
+            </div> -->
           </div>
           <!-- Media Right -->
           <div class="column is-7 has-content-vcentered">
