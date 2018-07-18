@@ -1,7 +1,7 @@
 {
-    "title": "drone",
-    "subtitle": "The missing library manager for Android Developers",
-    "installation": "npm i -g drone",
+    "title": "facelift",
+    "subtitle": "Quick github-pages generator",
+    "installation": "npm i -g facelift",
     "screenshot": "http://cesarferreira.com/drone/res/add4.gif",
     "author": {
         "name": "cesar ferreira",
@@ -12,19 +12,17 @@
         {
             "title": "Features",
             "items": [
-                "Blazing fast way to add libraries",
-                "No need to search the web for that library",
-                "Add multiple dependencies with a one liner",
-                "Automated dependency and package management",
-                "Automatic import custom urls (e.g. jitpack)",
-                "Intuitive, easy-to-learn tool"
+                "Quickly generate a website for your open source project",
+                "Just create a simple json file",
+                "Run <strong>facelift</strong>",
+                "A website is created for you"
             ]
         },
         {
             "title": "Links",
             "items": [
-                "GitHub: https://github.com/cesarferreira/drone",
-                "npm: https://www.npmjs.com/package/drone"
+                "GitHub: https://github.com/cesarferreira/facelift",
+                "npm: https://www.npmjs.com/package/facelift"
             ]
         }
     ]
