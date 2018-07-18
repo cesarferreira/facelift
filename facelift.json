@@ -22,7 +22,7 @@
             "title": "Links",
             "items": [
                 "GitHub: <a href='https://github.com/cesarferreira/facelift'>https://github.com/cesarferreira/facelift</a>",
-                "npm: https://www.npmjs.com/package/facelift"
+                "npm: <a href='https://www.npmjs.com/package/facelift'>https://www.npmjs.com/package/facelift</a>"
             ]
         }
     ]
