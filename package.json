@@ -22,8 +22,9 @@
     "copy-template-dir": "^1.4.0",
     "engine-handlebars": "^0.8.2",
     "meow": "^5.0.0",
-    "templates": "^1.2.9",
-    "update-notifier": "^2.5.0"
+    "mustache": "^2.3.0",
+    "path.join": "^1.0.0",
+    "templates": "^1.2.9"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
