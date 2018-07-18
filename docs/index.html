@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{title}} - {{subtitle}}</title>
+  <title>facelift - Quick github-pages generator</title>
   <link rel="stylesheet" href="./css/vendor/bulma.min.css" />
   <link rel="stylesheet" href="./css/main.css" />
   <!-- Twitter Meta -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@cesarmcferreira" />
   <meta name="twitter:title" content="drone" />
-  <meta name="twitter:description" content="{{subtitle}}" />
+  <meta name="twitter:description" content="Quick github-pages generator" />
   <meta property="og:url" content="https://cesarferreira.com/drone/" />
   <meta property="og:title" content="drone" />
-  <meta property="og:description" content="{{subtitle}}" />
+  <meta property="og:description" content="Quick github-pages generator" />
 </head>
 <body>
   <div class="hero is-fullheight">
@@ -23,31 +23,37 @@
         <div class="columns is-variable is-6">
           <!-- Content Left -->
           <div class="column is-5 has-content-vcentered">
-            <h1 class="title is-1">{{title}}</h1>
-            <h2 class="subtitle">{{subtitle}}</h2>
+            <h1 class="title is-1">facelift</h1>
+            <h2 class="subtitle">Quick github-pages generator</h2>
             <div class="call-to-action content">
               <p class="install-text is-size-4">
-                <code><span>{{installation}}</span></code>
+                <code><span>npm i -g facelift</span></code>
               </p>
               <div class="notification is-link is-hidden copy-notification">Copied to clipboard!</div>
             </div>
 
-            {{#highlights}}
             <div class="features content">
-              <strong>{{title}}</strong>
+              <strong>Features</strong>
               <ul>
-                {{#items}}
-                <li>{{{.}}}</li>
-                {{/items}}
+                <li>Quickly generate a website for your open source project</li>
+                <li>Just create a simple json file</li>
+                <li>Run <strong>facelift</strong></li>
+                <li>A website is created for you</li>
               </ul>
             </div>
-            {{/highlights}}
+            <div class="features content">
+              <strong>Links</strong>
+              <ul>
+                <li>GitHub: https://github.com/cesarferreira/facelift</li>
+                <li>npm: https://www.npmjs.com/package/facelift</li>
+              </ul>
+            </div>
 
           </div>
           <!-- Media Right -->
           <div class="column is-7 has-content-vcentered">
             <figure class="image is-4by2">
-              <img src="{{{screenshot}}}" />
+              <img src="http://cesarferreira.com/drone/res/add4.gif" />
             </figure>
           </div>
         </div>
@@ -55,9 +61,9 @@
     </div>
   </div>
 
-  <a target="_blank" rel="noopener" class="makerlink" href="{{{author.homepage}}}">
-    <img class="makerlink__img" src="{{{author.thumbnail}}}" style="display: inline-block">
-    <p class="makerlink__author">by {{author.name}}</p>
+  <a target="_blank" rel="noopener" class="makerlink" href="http://cesarferreira.com">
+    <img class="makerlink__img" src="https://pbs.twimg.com/profile_images/884351017097322496/2mmpORsM_400x400.jpg" style="display: inline-block">
+    <p class="makerlink__author">by cesar ferreira</p>
   </a>
 </body>
 </html>

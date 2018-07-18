@@ -38,7 +38,7 @@ const outDir = path.join(process.cwd(), 'docs')
 
 copy(inDir, outDir, vars, (err, createdFiles) => {
   if (err) throw err
-  var output = Mustache.render(readFromFile(__dirname+'/index.html'), vars);
+  var output = Mustache.render(readFromFile(inDir+'/index.html'), vars);
   createdFiles.forEach(filePath => console.log(`Created ${filePath}`))
   writeToFile(outDir+'/index.html', output)
   console.log('done!')
