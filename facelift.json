@@ -2,7 +2,7 @@
     "title": "facelift",
     "subtitle": "Quick github-pages generator",
     "installation": "npm i -g facelift",
-    "screenshot": "http://cesarferreira.com/drone/res/add4.gif",
+    "screenshot": "https://raw.githubusercontent.com/cesarferreira/facelift/master/extras/screenshot.png",
     "author": {
         "name": "cesar ferreira",
         "thumbnail": "https://pbs.twimg.com/profile_images/884351017097322496/2mmpORsM_400x400.jpg",
@@ -21,7 +21,7 @@
         {
             "title": "Links",
             "items": [
-                "GitHub: https://github.com/cesarferreira/facelift",
+                "GitHub: <a href='https://github.com/cesarferreira/facelift'>https://github.com/cesarferreira/facelift</a>",
                 "npm: https://www.npmjs.com/package/facelift"
             ]
         }
