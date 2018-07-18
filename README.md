@@ -2,7 +2,7 @@
 > Quick github-pages generator
 
 <p align="center">
-  <img src="extras/facelift-docs-ss.png" width="100%" />
+  <img src="extras/facelift-docs-ss2.png" width="100%" />
 </p>
 
 <p align="center">
