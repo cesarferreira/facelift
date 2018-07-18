@@ -58,18 +58,18 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
         {
             "title": "Links",
             "items": [
-                "GitHub: https://github.com/cesarferreira/drone",
-                "npm: https://www.npmjs.com/package/drone"
+                "GitHub: <a href='https://github.com/cesarferreira/drone'>https://github.com/cesarferreira/drone</a>",
+                "npm: <a href='https://www.npmjs.com/package/drone'>https://www.npmjs.com/package/drone</a>"
             ]
         }
     ]
 }
 ```
 
-### `git add` and `push` your code to your `remote`.
+> `git add` and `push` your code to your `remote`.
 
-
-### Head to your https://github.com/USERNAME/REPO/settings, scroll down to Github Pages and change the source to __master branch /docs folder__.
+### now...
+Head to your https://github.com/USERNAME/REPO/settings, scroll down to Github Pages and change the source to __master branch /docs folder__.
 
 <p align="center">
   <img src="extras/settings-gh-pages.png" width="100%" />

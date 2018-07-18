@@ -27,6 +27,13 @@ Usage
 
 // todo check if facelift.json exists
 
+if (!fs.existsSync("./facelift.json")) {
+  // Do something
+  log("Please create a `facelift.json` file first")
+  log("check how it's done here: https://github.com/cesarferreira/facelift")
+  process.exit(1)
+}
+
 function getObjFromFile(fileName) { return JSON.parse(readFromFile(fileName)); }
 function readFromFile(fileName) { return fs.readFileSync(fileName, 'utf8'); }
 function writeToFile(fileName, content) { fs.writeFileSync(fileName, content, 'utf8'); }
