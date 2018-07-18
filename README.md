@@ -40,8 +40,8 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
     "screenshot": "http://cesarferreira.com/drone/res/add4.gif",
     "author": {
         "name": "cesar ferreira",
-        "thumbail": "https://pbs.twimg.com/profile_images/884351017097322496/2mmpORsM_400x400.jpg",
-        "homepage": "cesarferreira.com"
+        "thumbnail": "https://pbs.twimg.com/profile_images/884351017097322496/2mmpORsM_400x400.jpg",
+        "homepage": "http://cesarferreira.com"
     },
     "highlights": [
         {
@@ -75,7 +75,7 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
   <img src="extras/settings-gh-pages.png" width="100%" />
 </p>
 
-### This will generate this website:
+### This will generate this website: http://cesarferreira.com/drone/
 
 <p align="center">
   <img src="extras/ss.png" width="100%" />
