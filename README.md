@@ -75,7 +75,7 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
   <img src="extras/settings-gh-pages.png" width="100%" />
 </p>
 
-### This will generate this website: http://cesarferreira.com/drone/
+### This will generate this [website](http://cesarferreira.com/drone/)
 
 <p align="center">
   <img src="extras/ss.png" width="100%" />
