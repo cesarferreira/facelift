@@ -2,6 +2,7 @@
     "title": "facelift",
     "subtitle": "Quick github-pages generator",
     "installation": "npm i -g facelift",
+    "url": "https://github.com/cesarferreira/facelift",
     "screenshot": "https://raw.githubusercontent.com/cesarferreira/facelift/master/extras/screenshot.png",
     "author": {
         "name": "cesar ferreira",

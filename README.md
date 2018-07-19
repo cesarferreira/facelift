@@ -37,6 +37,7 @@ This will use the `facelift.json` file to generate the `docs/` folder with the w
     "title": "drone",
     "subtitle": "The missing library manager for Android Developers",
     "installation": "npm i -g drone",
+    "url": "https://github.com/cesarferreira/drone",
     "screenshot": "http://cesarferreira.com/drone/res/add4.gif",
     "author": {
         "name": "cesar ferreira",
