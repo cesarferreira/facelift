@@ -69,3 +69,8 @@ div.notification.copy-notification {
     font-size: 14px;
     margin: 0px 0px 0px 7px;
 }
+
+h1 a {
+    color:inherit; 
+    text-decoration: none;
+ }
